@@ -23,21 +23,21 @@ namespace UnitTestProject3
         }
         public String getName()                         //getter to get the name of a student class object 
         {
-            return name;
+            return this.name;
         }
         public int getId()                                   // getter to get the id of a student class object 
         {
-            return id;
+            return this.id;
         }
 
         public double getPercentage()                           //getter to get the percentage of a student class object 
         {
-            return percentage;
+            return this.percentage;
         }
 
         public String[] getSkills()                        // getter to get the array of Skills of a student class object 
         {
-            return skills;
+            return this.skills;
         }
 
 
