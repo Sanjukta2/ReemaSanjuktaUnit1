@@ -21,6 +21,33 @@ namespace UnitTestProject3
             this.skills = skills;
 
         }
+         public Student (String name, int id)         // constructor for Student class created for object creation and instance variable initialization
+        {
+            this.name = name;
+            this.id = id;
+           
+        }
+        
+         public Student (String name, int id, double percentage)         // constructor for Student class created for object creation and instance variable initialization
+        {
+            this.name = name;
+            this.id = id;
+            this.percentage = percentage;
+
+        }
+        
+         public Student ()         // constructor for Student class created for object creation and instance variable initialization
+        { 
+        }
+        
+        public Student (String name, int id, String[] skills)         // constructor for Student class created for object creation and instance variable initialization
+        {
+            this.name = name;
+            this.id = id;
+            this.skills = skills;
+
+        }
+        
         public String getName()                         //getter to get the name of a student class object 
         {
             return this.name;
