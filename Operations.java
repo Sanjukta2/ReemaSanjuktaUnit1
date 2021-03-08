@@ -1,19 +1,19 @@
 package project1;
 import java.util.Scanner; 
-public class Operations extends Student{
+public class Operations extends Student{          // derived class inheriting base class
 	
-	public Operations(String name, int id, double percentage, String[] skills) 
-    {
+	public Operations(String name, int id, double percentage, String[] skills)  // construtor created
+        {
 		super(name,id,percentage,skills);
        
-    }
+        }
 	
-	public void changeName(String newName)
+	public void changeName(String newName)      // method to change name through parameter
 	{
 		this.name = newName;
 	}
 	
-	public void changeName()
+	public void changeName()                     //method to change name through user input
 	{
 		 Scanner sc = new Scanner(System.in); 
 		  
@@ -22,7 +22,7 @@ public class Operations extends Student{
 	     this.name = newName;
 	     
 	}
-	public void addSkills(String Skill)
+	public void addSkills(String Skill)               // method to add skills upto a count of 5
 	{
 		Scanner sc = new Scanner(System.in); 
 		int count ;
