@@ -1,13 +1,13 @@
 package project1;
 
-public class Student {
+public class Student {  // Student class declared
 
-    String name;
+    String name;            // instance variables   created
     int id;
     double percentage;
     String[] skills;
 
-    public Student (String name, int id, double percentage, String[] skills)
+    public Student (String name, int id, double percentage, String[] skills) // constructor
     {
         this.name = name;
         this.id = id;
@@ -15,7 +15,7 @@ public class Student {
         this.skills = skills;
 
     }
-    public String getName()
+    public String getName()           //getters
     {
         return name;
     }
@@ -35,7 +35,7 @@ public class Student {
     }
 
 
-    public void setName(String name)
+    public void setName(String name)       // setters
     {
         this.name = name;
     }
